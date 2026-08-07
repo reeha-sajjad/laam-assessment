@@ -37,3 +37,8 @@ test("estimateDeliveryDate formats a min-max range from a fixed date", () => {
   const result = estimateDeliveryDate({ min: 4, max: 5 }, from);
   assert.equal(result, "Jan 5 - Jan 6");
 });
+
+test("getSimilarProducts respects the limit argument", async () => {
+  const similar = await getSimilarProducts("p-1001", 1);
+  assert.equal(similar.length, 1);
+});
