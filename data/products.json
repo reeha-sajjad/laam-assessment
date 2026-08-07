@@ -2,7 +2,7 @@
   {
     "id": "p-1001",
     "name": "Embroidered Chiffon Kurta",
-    "brand": "Sana Safinaz",
+    "brand": "",
     "category": "womens-kurta",
     "price": 8900,
     "currency": "PKR",
@@ -22,7 +22,7 @@
   {
     "id": "p-1002",
     "name": "Printed Lawn Suit (3-Piece)",
-    "brand": "Khaadi",
+    "brand": "",
     "category": "womens-kurta",
     "price": 6450,
     "currency": "PKR",
@@ -42,7 +42,7 @@
   {
     "id": "p-1003",
     "name": "Slim Fit Denim Jacket",
-    "brand": "Outfitters",
+    "brand": "",
     "category": "mens-outerwear",
     "price": 5200,
     "currency": "PKR",
@@ -62,7 +62,7 @@
   {
     "id": "p-1004",
     "name": "Embellished Net Saree",
-    "brand": "Zara Shahjahan",
+    "brand": "",
     "category": "womens-formal",
     "price": 15900,
     "currency": "PKR",
@@ -78,7 +78,7 @@
   {
     "id": "p-1005",
     "name": "Cotton Straight Trousers",
-    "brand": "Bonanza Satrangi",
+    "brand": "",
     "category": "womens-kurta",
     "price": 3200,
     "currency": "PKR",
@@ -97,7 +97,7 @@
   {
     "id": "p-1006",
     "name": "Formal Waistcoat",
-    "brand": "J.",
+    "brand": "",
     "category": "mens-outerwear",
     "price": 4700,
     "currency": "PKR",
