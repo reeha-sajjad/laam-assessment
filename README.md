@@ -100,7 +100,7 @@ Ran npm test to confirm that all 6 unit tests pass:
 
 - Swap the JSON repository for a real database
 - Handle the "someone else just bought the last one" edge case gracefully in the UI, not just as an error message.
-- Real image galleries, caresoles and size chart guidance 
+- Real image galleries, carousels and size chart guidance 
 - A search bar and a filter button
 - AI powered size recommendations that allows an AI tool to ask users for their height and weight to suggest the perfect size.
 - A real recommendation engine instead of a same category match for similar products.
