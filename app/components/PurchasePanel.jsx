@@ -156,6 +156,23 @@ export default function PurchasePanel({ product, estimatedDelivery }) {
         </div>
       )}
 
+      {!isSoldOut && (
+        <div className="grid grid-cols-3 gap-2 text-center border-t border-black/10 pt-4">
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-base leading-none">✅</span>
+            <span className="text-[11px] text-black/50 leading-tight">100% Original Brand</span>
+          </div>
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-base leading-none">↩️</span>
+            <span className="text-[11px] text-black/50 leading-tight">Easy 7-Day Returns</span>
+          </div>
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-base leading-none">📦</span>
+            <span className="text-[11px] text-black/50 leading-tight">Free Shipping over Rs. 5,000</span>
+          </div>
+        </div>
+      )}
+      
       {status && (
         <p
           role="status"
