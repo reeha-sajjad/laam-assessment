@@ -119,6 +119,18 @@ export default function PurchasePanel({ product, estimatedDelivery }) {
             Sold out in all sizes right now — see similar picks below.
           </p>
         )}
+
+        {selectedSize && (() => {
+          const stockLeft = product.sizes.find((s) => s.size === selectedSize)?.stock ?? 0;
+          if (stockLeft > 0 && stockLeft < 5) {
+            return (
+              <p className="text-xs text-amber-700 mt-2">
+                Only {stockLeft} left in stock — size {selectedSize}
+              </p>
+            );
+          }
+          return null;
+        })()}
       </div>
 
       {/* Delivery trust */}
@@ -172,7 +184,7 @@ export default function PurchasePanel({ product, estimatedDelivery }) {
           </div>
         </div>
       )}
-      
+
       {status && (
         <p
           role="status"
