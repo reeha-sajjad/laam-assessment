@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <main className="flex-1">{children}</main>
         <footer className="border-t border-black/10 mt-16">
           <div className="max-w-6xl mx-auto px-5 py-8 text-xs text-black/40">
-            Demo build for assessment purposes — not a real storefront.
+            dummy website for the LAAM assessment | Built by Reeha Sajjad
           </div>
         </footer>
       </body>
