@@ -103,7 +103,7 @@ Ran npm test to confirm that all 6 unit tests pass:
 ## 9. AI Usage
 
 I used Claude to move fast on the first draft in scaffolding the project, API routes, and the first set of tests which saved a lot of setup time I could then spend actually thinking through the product problem instead. I didn't just take what it gave me, though. A few things I went back and changed myself:
-- Thought of the user flow myself and the the different buttons for the UI and prompted claude accordingly 
+- Thought of the user flow myself and the the different functionalities needed, explained the logic and prompted claude accordingly. 
 - I removed the brand names from the UI because they all need to be authenticated under LAAM.
 - I also fixed a build failure caused by Google Fonts by switching to system fonts.
 - I removed leftover placeholder/demo text so the app didn't read like a prototype.
