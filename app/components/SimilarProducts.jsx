@@ -33,7 +33,7 @@ export default function SimilarProducts({ products }) {
                 className="object-cover group-hover:scale-[1.03] transition-transform duration-300"
               />
             </div>
-            <div className="text-xs text-black/40">{p.brand}</div>
+            {/* <div className="text-xs text-black/40">{p.brand}</div> */}
             <div className="text-sm leading-snug">{p.name}</div>
             <div className="text-sm font-medium mt-1">
               {formatPrice(p.price, p.currency)}

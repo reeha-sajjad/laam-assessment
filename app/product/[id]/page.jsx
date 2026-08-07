@@ -45,8 +45,8 @@ export default async function ProductPage({ params }) {
 
         {/* Info + purchase panel */}
         <div>
-          <div className="text-sm text-black/50">{product.brand}</div>
-          <h1 className="font-[family-name:var(--font-display)] text-3xl mt-1 mb-3">
+          {/* <div className="text-sm text-black/50">{product.brand}</div> */}
+          <h1 className="font-[family-name:var(--font-display)] text-3xl mb-3">
             {product.name}
           </h1>
 
