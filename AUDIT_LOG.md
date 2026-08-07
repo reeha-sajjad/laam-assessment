@@ -28,6 +28,6 @@ Tool: Claude (Anthropic)
 
 - Wrote the initial layout, styling, and visual direction.
 
-- Wrote the initial test suite (`tests/productRepository.test.js`) | 5/5 tests passing using 'npm test'|
+- Wrote the initial test suite (`tests/productRepository.test.js`) | 5/5 tests passing using `npm test`|
 
-- Wrote this log | `AUDIT_LOG.md` |
+- Wrote this log | `AUDIT_LOG.md` | and the intial version of the README file |`README.md`|
