@@ -126,7 +126,6 @@ export default function PurchasePanel({ product, estimatedDelivery }) {
             return (
               <p className="text-xs text-amber-700 mt-2">
                 Only {stockLeft} left in stock — size {selectedSize}
-
               </p>
             );
           }
