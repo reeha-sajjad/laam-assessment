@@ -36,6 +36,11 @@ export default async function ProductPage({ params }) {
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
+          {product.sizes.every((s) => s.stock === 0) && (
+            <span className="absolute bottom-3 left-3 bg-black text-white text-[11px] tracking-wide px-2.5 py-1">
+              SOLD OUT
+            </span>
+          )}
         </div>
 
         {/* Info + purchase panel */}
