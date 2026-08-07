@@ -34,7 +34,13 @@ The brief describes the hesitation and uncertainity a customer faces and I have 
 
 **Frontend:** Next.js (App Router) with Tailwind. The interactive bits like the size selection, cart actions are live in their own client component, and everything else renders on the server, so the page stays fast. I went for a clean, editorial look on purpose because this is a fashion product page, and I've noticed the original LAAM page uses a minimalistic style choice so I wanted to keep up with the brand's original UI.
 
-**Backend:** Three API routes. The cart endpoint re-fetches the product server-side and checks the size actually is in-stock before saying the action succeeded. A size selector is easy to fool in the browser; the API isn't.
+**Backend:** 
+I used three API routes. 
+- `GET /api/products/[id]` loaded everything about one product: name, price, sizes, stock,
+and delivery info.
+- `GET /api/products/[id]/similar` grabs a few other products from the same category, for
+the "similar picks" section at the bottom of the page.
+- `POST /api/cart` handles Add to Cart and Buy Now. I've also added additional checks while checking  out so it goes and checks the real numbers on the server before saying yes in order to handle errors like "last second sold out articles" gracefully.
 
 **Data model:**
 ```
@@ -106,6 +112,7 @@ I used Claude to move fast on the first draft in scaffolding the project, API ro
 - Thought of the user flow myself and the the different functionalities needed, explained the logic and prompted claude accordingly. 
 - I removed the brand names from the UI because they all need to be authenticated under LAAM.
 - I also fixed a build failure caused by Google Fonts by switching to system fonts.
+- I fixed the image URLs because they were not being displayed properly earlier.
 - I removed leftover placeholder/demo text so the app didn't read like a prototype.
 - I added the trust badges, low stock warning, and sold out tag they directly address the brief's core problem i.e. boosting purchase confidence.
 - Reviewed the test file, ran it, and added a 6th test of my own.
