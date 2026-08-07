@@ -16,7 +16,7 @@ The brief describes the hesitation and uncertainity a customer faces and I have 
 
 **Deliberately not built:**
 - Real checkout/payment.
-- Saving the cart anywhere — the endpoint validates properly, it just doesn't persist yet.
+- Saving the cart anywhere because the endpoint validates properly, it just doesn't persist yet.
 - Search, filtering, accounts/login.
 - A real database (see more below).
 
