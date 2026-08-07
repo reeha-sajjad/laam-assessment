@@ -18,9 +18,6 @@ export default async function HomePage() {
       <h1 className="font-[family-name:var(--font-display)] text-3xl mb-1">
         New In
       </h1>
-      <p className="text-sm text-black/50 mb-8">
-        Demo catalog — click any product to open its detail page.
-      </p>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
         {products.map((p) => (
