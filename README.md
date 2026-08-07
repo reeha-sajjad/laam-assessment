@@ -1,4 +1,4 @@
-# LAAM — Product Discovery & Purchase Confidence
+# LAAM - Product Discovery & Purchase Confidence
 
 LAAM is a marketplace for South Asian fashion. Customers often browse many similar-looking
 products across different brands, sizes, prices, delivery timelines, and stock availability. My goal is to boost Purchase Confidence.
@@ -10,7 +10,7 @@ The brief describes the hesitation and uncertainity a customer faces and I have 
 ## 2. Scope
 
 **Built:**
-- A full product detail page which has teh product's image, price (tax included, stated up front), a size selector where anything out of stock is crossed out and can't be picked, a delivery estimate that's actually calculated from today's date, Add to Cart / Buy Now, and a "similar products" section at the bottom for when the item just isn't the right fit.
+- A full product detail page which has the product's image, price (tax included, stated up front), a size selector where anything out of stock is crossed out and can't be picked, a delivery estimate that's actually calculated from today's date, Add to Cart / Buy Now, and a "similar products" section at the bottom for when the item just isn't the right fit.
 - A small homepage with various articles to pick and choose from.
 - Three working API endpoints, including a cart endpoint that re-checks stock on the server before confirming anything, I didn't want the app able to lie to a customer about something being available.
 
